@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int  i, b , p , power=1;
+    printf("Enter the base number");
+    scanf("%d",&b);
+     printf("Enter the exponent number");
+    scanf("%d",&p);
+    for ( i = 1; i <= p; i++)
+    {
+       power=power*b;
+    }
+    printf("power is %d",power);
+    return 0;
+}
